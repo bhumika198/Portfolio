@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bhumika Sahu's Portfolio - IT & Web Development">
+  <title>Bhumika Sahu - Portfolio</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    html { scroll-padding-top: 70px; }
+    body {
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+      background-color: #f4f7fa;
+      margin: 0;
+    }
+    .navbar { background-color: #343a40 !important; }
+    .navbar .nav-link { color: #fff; margin-left: 1rem; }
+    .navbar .btn-outline-light { font-weight: 500; border-radius: 20px; }
+    .split-hero {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+    }
+    .hero-left, .hero-right {
+      flex: 1 1 50%;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .hero-left {
+      background-color: #000;
+      color: white;
+    }
+    .hero-left h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: #fff;
+    }
+    .hero-left p {
+      font-size: 1.25rem;
+      color: #ccc;
+    }
+    .hero-right {
+      background-color: #fff;
+      align-items: center;
+    }
+    .hero-right img {
+      max-width: 300px;
+      border-radius: 12px;
+    }
+    .social-icons {
+      margin-top: 20px;
+    }
+    .social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .social-icons img {
+      width: 32px;
+      height: 32px;
+    }
+    section {
+      padding: 60px 0;
+    }
+    h2 {
+      color: #2c3e50;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    ul li { margin-bottom: 10px; }
+    .card {
+      border: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+    .card-title { color: #0077b6; }
+    #about, #certifications { background-color: #f0f8ff; }
+    #skills { background-color: #ffffff; }
+    #projects { background-color: #eaf4fb; }
+    #experience { background-color: #fefefe; }
+    #education { background-color: #f0f0f0; }
+    #social { background-color: #f8f9fa; }
+    a { color: #0d6efd; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">BS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+        <li class="nav-item"><button class="btn btn-outline-light btn-sm" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Me</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="split-hero">
+  <div class="hero-left">
+    <p>Hi, I am</p>
+    <h1>Bhumika Sahu</h1>
+    <p>Front-end Developer / IT Consultant</p>
+    <div class="social-icons">
+      <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email"></a>
+      <a href="https://github.com/yourusername" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub"></a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="https://via.placeholder.com/300x400" alt="Bhumika Sahu">
+  </div>
+</div>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <h2>About Me</h2>
+    <p>I am eager to apply my strong analytical and problem-solving skills to contribute to the success of a dynamic team. A quick learner with a passion for staying updated on emerging technologies, seeking opportunities to grow and make meaningful contributions to an organization.</p>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="bg-light">
+  <div class="container">
+    <h2>Skills</h2>
+    <ul>
+      <li>Microsoft Azure, Windows Server, Active Directory</li>
+      <li>Networking: Routing, Switching, LAN Management</li>
+      <li>VMware (ESXi, Veeam, vSphere)</li>
+      <li>ServiceNow, LogicMonitor, Postman</li>
+      <li>ITIL v4, Effective communication</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section id="experience">
+  <div class="container">
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Persistent Systems</strong> (Jul 2023 – Jan 2024): Worked with Azure, Active Directory, Postman, IIS, and NOC monitoring. Gained proficiency in user management.</li>
+      <li><strong>OnDirect Marketing Services</strong> (Jun 2024 – Jul 2024): Lead generation for IT clients and understanding of IT product promotion strategies.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="bg-light">
+  <div class="container">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Tournament Management System</strong>: Built with HTML, CSS, Bootstrap, JavaScript, PHP & SQLite. Streamlined candidate filtering by age, weight, and gender for national tournaments.</li>
+      <li><strong>IT & Infrastructure Consultant Website</strong>: Designed a company site with service request features sent via email using HTML, CSS, Bootstrap, and JavaScript.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education">
+  <div class="container">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>BCA</strong>, Modern College, Pune – 9.92 CGPA (2023)</li>
+      <li><strong>HSC</strong>, Nowrosjee Wadia College, Pune – 66% (2020)</li>
+      <li><strong>SSC</strong>, New Father Angel School, Indore – 89% (2018)</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="bg-light">
+  <div class="container">
+    <h2>Certifications</h2>
+    <ul>
+      <li>ITIL v4 – Axelos</li>
+      <li>Azure Basics – SimpliLearn</li>
+      <li>SQL Intermediate – HackerRank (Gold Badge)</li>
+      <li>Oracle SQL – Great Learning</li>
+      <li>C# Basic – HackerRank</li>
+      <li>Python – Internshala</li>
+      <li>C – IIT Bombay (Spoken Tutorial)</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Languages Section -->
+<section id="languages">
+  <div class="container">
+    <h2>Languages</h2>
+    <ul>
+      <li>Hindi</li>
+      <li>English</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form onsubmit="handleSubmit(event)">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Me</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input required type="text" class="form-control" id="name" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input required type="email" class="form-control" id="email" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea required class="form-control" id="message" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- JS Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  function handleSubmit(event) {
+    event.preventDefault();
+    alert("Thank you! Your message has been received.");
+    document.getElementById("name").value = "";
+    document.getElementById("email").value = "";
+    document.getElementById("message").value = "";
+    const modal = bootstrap.Modal.getInstance(document.getElementById('contactModal'));
+    modal.hide();
+  }
+</script>
+
+</body>
+</html>
